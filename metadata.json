@@ -1,0 +1,6 @@
+{
+  "name": "APP DASHBOARD LKB - Central Management System",
+  "description": "Executive Central Management System with Hybrid Offline-First, Excel Replication, Analytics, Multi-device Synchronization, and Google Sheets integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

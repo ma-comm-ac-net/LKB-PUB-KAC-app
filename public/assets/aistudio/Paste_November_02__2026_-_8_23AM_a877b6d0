@@ -1,0 +1,2127 @@
+# MASTER PROMPT FINAL VERDICT 12/10
+# APP DASHBOARD LKB
+## CENTRAL MANAGEMENT SYSTEM
+### PREMIUM CORPORATE EDITION
+### HYBRID OFFLINE-FIRST · EXCEL REPLICATION · EXECUTIVE BUSINESS INTELLIGENCE · SYSTEM HARDENING
+
+============================================================
+00. MASTER EXECUTION MANDATE
+============================================================
+
+BERTINDAK SEBAGAI TIM PENGEMBANG PROFESIONAL:
+
+1. Principal Software Architect.
+2. Senior Full-Stack Engineer.
+3. Excel Forensic Auditor.
+4. Database Architect.
+5. Data Engineer.
+6. Business Intelligence Developer.
+7. Data Integrity Engineer.
+8. UI/UX Designer.
+9. Cybersecurity Engineer.
+10. DevOps Engineer.
+11. QA Automation Engineer.
+12. Disaster Recovery Specialist.
+13. AI Governance Specialist.
+
+TUGAS UTAMA:
+
+Audit, perbaiki, kembangkan, dan tuntaskan aplikasi:
+
+APP DASHBOARD LKB
+CENTRAL MANAGEMENT SYSTEM.
+
+Gunakan workbook Excel asli sebagai sumber utama untuk mempelajari struktur data, formula, relasi antar-sheet, target, realisasi, scoring, dan dashboard.
+
+Bangun aplikasi yang benar-benar berfungsi, bukan hanya prototype, mockup, atau visualisasi statis.
+
+TUJUAN OPERASIONAL:
+
+Setiap bulan administrator pusat cukup:
+
+1. Menerima laporan dari 14 mitra.
+2. Membuka halaman UPDATE DATA.
+3. Copy-paste laporan Excel atau mengunggah CSV/XLSX.
+4. Memeriksa hasil import.
+5. Menjalankan validasi.
+6. Menekan PROCESS DATA.
+7. Seluruh formula dan sheet diperbarui otomatis.
+8. Dashboard diperbarui otomatis.
+9. Analisa, evaluasi, dan rekomendasi diperbarui.
+10. Melakukan sinkronisasi ke server pusat jika diperlukan.
+
+PRINSIP MUTLAK:
+
+- Preserve original business logic.
+- Preserve verified Excel formulas.
+- Preserve historical data.
+- Preserve data relationships.
+- Preserve partner identifiers.
+- Preserve reporting structure.
+- Improve data integrity.
+- Improve operational efficiency.
+- Improve visual quality.
+- Never fabricate data.
+- Never silently discard data.
+- Never modify critical formulas without verification.
+- Never perform destructive changes without backup.
+- Never claim a feature works before testing.
+
+Jangan melakukan rebuild jika proyek existing masih dapat dikembangkan.
+
+Audit terlebih dahulu, kemudian lakukan implementasi terkontrol.
+
+============================================================
+01. FORENSIC AUDIT — EXCEL WORKBOOK
+============================================================
+
+Audit seluruh 18 sheet:
+
+1. dashBOARD
+2. Proccesing
+3. Data
+4. Control
+5. Target 2026
+6. KPI 2026
+7. OUTPUT_PKU (QLY)
+8. UPDATE DATA
+9. RP-U
+10. PAB-U
+11. RP-K
+12. PAB-K
+13. BINA AB-U
+14. BINA AB-K
+15. PPB-U
+16. PPB-K
+17. MEDIA
+18. SCORING
+
+Periksa:
+
+- Seluruh baris dan kolom.
+- Formula setiap sel yang relevan.
+- Cell references.
+- Cross-sheet dependencies.
+- Named ranges.
+- Excel Tables.
+- Pivot Tables.
+- Pivot Cache.
+- Chart Objects.
+- Slicers.
+- Data Validation.
+- Conditional Formatting.
+- Merged Cells.
+- Hidden Rows.
+- Hidden Columns.
+- Manual inputs.
+- Calculated fields.
+- Target dan realisasi.
+- Scoring.
+- Weighting.
+- Monthly aggregation.
+- Annual aggregation.
+- Historical data.
+- Formula errors.
+
+Telusuri setiap angka sampai ke sumber input aslinya.
+
+Jangan mengasumsikan struktur hubungan sheet.
+
+Buat DEPENDENCY MAP berdasarkan hasil pemeriksaan aktual.
+
+Contoh alur yang perlu diverifikasi:
+
+UPDATE DATA
+→ RAW DATA
+→ PROCESSING
+→ DATA
+→ CONTROL
+→ TARGET
+→ KPI
+→ SCORING
+→ DASHBOARD.
+
+### 01.1 FORMULA DICTIONARY
+
+Buat dokumentasi:
+
+| Sheet | Cell | Indicator | Original Formula | TypeScript Formula | Dependency | Test Status |
+
+Setiap formula harus memiliki:
+- Source.
+- Input.
+- Calculation logic.
+- Output.
+- Dependency.
+- Data type.
+- Validation rule.
+- Test case.
+- Verification status.
+
+Status:
+- VERIFIED.
+- NEEDS VERIFICATION.
+- BROKEN SOURCE.
+- FIXED AND TESTED.
+
+### 01.2 AUDIT 15 EXCEL CHART OBJECTS
+
+Identifikasi seluruh 15 grafik Excel.
+
+Catat:
+- Chart ID.
+- Original title.
+- Chart type.
+- Source worksheet.
+- Source range.
+- Series.
+- Categories.
+- Formula dependency.
+- Slicer dependency.
+- Business interpretation.
+- Corresponding application visualization.
+
+Dashboard baru memiliki tiga panel grafik utama.
+
+Seluruh indikator dan informasi dari 15 grafik asli wajib tetap terwakili melalui tiga panel tersebut atau fasilitas drill-down.
+
+Jangan menghilangkan indikator.
+
+### 01.3 FORMULA ERROR INVESTIGATION
+
+Temukan:
+- #REF!
+- #DIV/0!
+- #N/A
+- #NUM!
+- Broken references.
+- Circular dependencies.
+- Inconsistent formulas.
+
+Telusuri penyebabnya.
+
+Jangan mengarang formula pengganti.
+
+============================================================
+02. EXCEL FORMULA PARITY ENGINE
+============================================================
+
+Buat mekanisme pembuktian bahwa hasil perhitungan aplikasi sama dengan Excel.
+
+Wajib:
+
+1. Golden test dataset.
+2. Cell-level formula comparison.
+3. Cross-sheet dependency validation.
+4. Numeric precision handling.
+5. Date comparison.
+6. Percentage comparison.
+7. Formula versioning.
+8. Regression testing.
+9. Calculation audit report.
+
+Ambil data referensi dari workbook asli.
+
+Bandingkan hasil Excel dan hasil TypeScript pada indikator yang sama.
+
+Gunakan numeric tolerance yang terdokumentasi berdasarkan tipe data.
+
+Jangan menyatakan Excel parity tercapai sebelum indikator kritis lolos pengujian.
+
+Jika terdapat formula Excel yang tidak dapat direplikasi langsung:
+- Dokumentasikan.
+- Identifikasi keterbatasan.
+- Buat alternatif.
+- Uji hasilnya.
+- Minta persetujuan sebelum mengganti definisi bisnis.
+
+Jangan mengandalkan SheetJS sebagai calculation engine karena library pembaca Excel tidak otomatis menghitung seluruh formula workbook.
+
+============================================================
+03. FINAL TECHNICAL ARCHITECTURE
+============================================================
+
+Gunakan HYBRID OFFLINE-FIRST.
+
+FRONTEND:
+- React.
+- TypeScript.
+- Vite.
+- Tailwind CSS.
+- Recharts.
+
+LOCAL DATABASE:
+- IndexedDB.
+- Dexie.js.
+
+BACKEND:
+- Node.js.
+- TypeScript.
+- REST API.
+
+CENTRAL DATABASE:
+- PostgreSQL.
+
+IMPORT:
+- SheetJS.
+- PapaParse.
+
+VALIDATION:
+- Zod.
+
+TESTING:
+- Vitest.
+- React Testing Library.
+- Playwright.
+
+OFFLINE:
+- PWA.
+- Service Worker.
+- Local asset caching.
+
+DEPLOYMENT:
+- GitHub.
+- GitHub Actions.
+- HTTPS hosting.
+- Backend hosting.
+- PostgreSQL hosting.
+
+Audit teknologi existing terlebih dahulu.
+
+Jangan mengganti teknologi yang sudah berfungsi tanpa alasan teknis.
+
+### 03.1 OFFLINE OPERATION
+
+Setiap perangkat mempunyai database lokal.
+
+Ketika OFFLINE:
+
+- Dashboard tetap dapat dibuka.
+- Data lokal tetap dapat dibaca.
+- UPDATE DATA tetap berfungsi.
+- Import CSV/XLSX tetap berfungsi.
+- Calculation Engine tetap berjalan.
+- Export tetap tersedia.
+- Perubahan disimpan secara lokal.
+- Perubahan masuk sync queue.
+
+Ketika ONLINE:
+
+- Perubahan lokal dikirim ke server.
+- Pembaruan server diterima perangkat.
+- Conflict detection dijalankan.
+- Database diperbarui.
+- Dashboard dihitung ulang.
+
+Aplikasi tidak boleh bergantung pada internet untuk operasi inti setelah instalasi dan data awal tersedia.
+
+### 03.2 CENTRAL DATABASE
+
+PostgreSQL menjadi sumber data bersama.
+
+Backend mengelola:
+
+- Authentication.
+- Authorization.
+- Synchronization.
+- Revision history.
+- Conflict resolution.
+- Audit logs.
+- Backup.
+- Restore.
+- Data integrity.
+
+Google Sheets bukan database utama.
+
+### 03.3 MULTI-DEVICE
+
+Dukung beberapa perangkat tim pusat.
+
+Setiap perangkat mempunyai:
+- Device ID.
+- User identity.
+- Local database.
+- Sync queue.
+- Revision number.
+- Last synchronized version.
+
+Jangan menganggap database lokal antarperangkat otomatis terhubung.
+
+============================================================
+04. VISUAL IDENTITY — FINAL DESIGN SYSTEM
+============================================================
+
+IDENTITAS:
+
+APP DASHBOARD LKB
+
+CENTRAL MANAGEMENT SYSTEM.
+
+Gunakan screenshot dashboard terakhir sebagai master visual reference.
+
+DESIGN DIRECTION:
+
+PREMIUM CORPORATE EXECUTIVE DASHBOARD.
+
+Karakter:
+- Clean.
+- Professional.
+- Elegant.
+- Corporate.
+- Premium.
+- Minimalist.
+- Data-centric.
+- High readability.
+- Structured information hierarchy.
+
+### 04.1 OFFICIAL COLOR TOKENS
+
+MAIN BACKGROUND:
+#F5F7FB
+
+PRIMARY SURFACE:
+#FFFFFF
+
+SIDEBAR:
+#092754
+
+SIDEBAR SECONDARY:
+#123765
+
+NAVY PRIMARY:
+#0B2B55
+
+NAVY SECONDARY:
+#163C6A
+
+MUSTARD HIGHLIGHT:
+#F5BB00
+
+MUSTARD DARK:
+#DCA400
+
+LIGHT GOLD:
+#FFF3C4
+
+TEXT PRIMARY:
+#172B4D
+
+TEXT SECONDARY:
+#69778C
+
+BORDER:
+#DCE4EF
+
+GRIDLINE:
+#E8EDF4
+
+SUCCESS:
+#16865D
+
+WARNING:
+#D69B18
+
+DANGER:
+#D94848
+
+INFO:
+#2684C7
+
+### 04.2 COLOR APPLICATION
+
+WHITE:
+- Main canvas.
+- Content surfaces.
+- Tables.
+- Forms.
+- Chart backgrounds.
+- Modal backgrounds.
+
+DEEP NAVY:
+- Sidebar.
+- Header.
+- Chart headers.
+- Main typography.
+- Important navigation.
+
+MUSTARD:
+- Active navigation.
+- Selected partner.
+- Important values.
+- KPI highlights.
+- Progress indicators.
+- Key actions.
+
+Gunakan hijau untuk status keberhasilan dan merah untuk peringatan.
+
+Jangan menggunakan ungu sebagai warna dominan.
+
+Jangan menggunakan gradient berlebihan.
+
+Jangan membuat dark mode sebagai tampilan default.
+
+### 04.3 COMPONENT DESIGN
+
+Gunakan:
+- White cards.
+- Navy headers.
+- Mustard accents.
+- Thin borders.
+- Soft shadows.
+- Consistent rounded corners.
+- Professional sans-serif typography.
+- Generous whitespace.
+- Clear visual hierarchy.
+
+Seluruh aplikasi harus konsisten dengan design tokens.
+
+============================================================
+05. DASHBOARD — FINAL EXECUTIVE LAYOUT
+============================================================
+
+Dashboard merupakan halaman utama.
+
+Nama header:
+
+APP DASHBOARD LKB
+
+Subtitle:
+
+CENTRAL MANAGEMENT SYSTEM.
+
+Komposisi:
+
+A. HEADER & GLOBAL FILTER.
+B. FOUR KPI PANELS.
+C. THREE ANNUAL CHART PANELS.
+D. TWO PERCENTAGE SUMMARY PANELS.
+E. PARTNER NAVIGATION.
+F. MONTH-OVER-MONTH COMPARISON TABLE.
+G. DATA STATUS FOOTER.
+
+Pertahankan urutan dan hirarki visual.
+
+### 05.1 HEADER
+
+Tampilkan:
+- APP DASHBOARD LKB.
+- Reporting period.
+- Year.
+- Partner selector.
+- Last updated.
+- Last processed.
+- Last synchronized.
+- Refresh.
+- Export.
+- Full screen.
+
+### 05.2 GLOBAL FILTER
+
+Sediakan:
+- Reporting month.
+- Reporting year.
+- Partner.
+- Indicator category.
+
+Semua komponen terkait harus mengikuti filter.
+
+Sediakan RESET FILTER.
+
+============================================================
+06. FOUR KPI PANELS
+============================================================
+
+Empat panel horizontal:
+
+1. PAB.
+2. PAB-KHS.
+3. BINA.
+4. PPB.
+
+Masing-masing wajib memiliki:
+
+KPI | TARGET | REALISASI | ACHIEVEMENT.
+
+### PANEL 1 — PAB
+
+Tampilkan:
+- KPI PAB.
+- Target PAB.
+- Realisasi PAB.
+- Achievement percentage.
+- Status.
+- Perbandingan bulan lalu.
+
+### PANEL 2 — PAB-KHS
+
+Tampilkan:
+- KPI PAB-KHS.
+- Target PAB-KHS.
+- Realisasi PAB-KHS.
+- Achievement percentage.
+- Status.
+- Perbandingan bulan lalu.
+
+### PANEL 3 — BINA
+
+Tampilkan:
+- KPI BINA.
+- Target BINA.
+- Realisasi BINA.
+- Achievement percentage.
+- Circular progress.
+- Status.
+- Perbandingan bulan lalu.
+
+### PANEL 4 — PPB
+
+Tampilkan:
+- KPI PPB.
+- Target PPB.
+- Realisasi PPB.
+- Achievement percentage.
+- Status.
+- Perbandingan bulan lalu.
+
+### 06.1 KPI VISUAL DESIGN
+
+Gunakan:
+- White surfaces.
+- Navy typography.
+- Mustard highlights.
+- Progress indicators.
+- Clear number hierarchy.
+
+Status:
+- ACHIEVED.
+- ON TRACK.
+- BELOW TARGET.
+- NO DATA.
+
+Gunakan formula KPI asli yang telah diverifikasi.
+
+Jangan mengarang nilai.
+
+============================================================
+07. THREE ANNUAL GRAPH PANELS
+============================================================
+
+Semua grafik mempunyai 12 bulan:
+
+JAN | FEB | MAR | APR | MEI | JUN | JUL | AGS | SEP | OKT | NOV | DES.
+
+Default year: 2026.
+
+Bulan tanpa data tetap ditampilkan.
+
+Gunakan:
+- NO DATA.
+- NOT REPORTED.
+- PENDING.
+
+Jangan otomatis mengubah nilai kosong menjadi nol.
+
+### PANEL 1 — ANNUAL PERFORMANCE: RP & PAB
+
+Indikator:
+- RP.
+- PAB.
+
+Tampilkan:
+- Monthly trend.
+- Two series.
+- Data labels.
+- Tooltip.
+- Legend.
+- Target line jika tersedia.
+
+Gunakan navy dan mustard sebagai warna seri utama.
+
+### PANEL 2 — ANNUAL AB PERFORMANCE & DEVELOPMENT
+
+Indikator:
+
+1. TOTAL AB AKTIF.
+2. TOTAL BINA AB.
+3. TOTAL AB TIDAK TERBINA.
+
+Warna:
+- AB AKTIF: Deep Navy.
+- BINA AB: Mustard.
+- TIDAK TERBINA: Light Blue.
+
+Tampilkan:
+- Monthly values.
+- Data labels.
+- Tooltip.
+- Legend.
+- Trend.
+- Monthly comparison.
+
+### PANEL 3 — ANNUAL PERFORMANCE: COMPLETE INDICATORS
+
+Tujuh indikator:
+
+1. RP.
+2. RP-K.
+3. PAB.
+4. PAB-K.
+5. BINA AB.
+6. TIDAK TERBINA.
+7. PPB.
+
+Gunakan:
+- Multi-series line chart.
+- Combo chart.
+- Small multiples jika diperlukan.
+
+Jangan memaksakan semua seri ke skala yang sama jika mengurangi keterbacaan.
+
+Sediakan toggle setiap seri.
+
+### 07.1 CHART DESIGN RULES
+
+- White background.
+- Navy header.
+- Mustard highlight.
+- Subtle gridlines.
+- Readable labels.
+- Clear legend.
+- Professional tooltip.
+- Responsive layout.
+- Full screen.
+- Export.
+
+Semua grafik harus membaca Calculation Engine.
+
+============================================================
+08. TWO PERCENTAGE SUMMARY PANELS
+============================================================
+
+Gunakan circular gauge atau circular progress.
+
+Background putih, teks navy, aksen mustard.
+
+### PANEL 1 — KINERJA RASIO DAN PEMBINAAN
+
+Empat indikator:
+
+1. RP : PKU.
+2. RP : PAB.
+3. PAB : PPB.
+4. BINA AB : PKU.
+
+Tampilkan:
+- Indicator name.
+- Percentage.
+- Numerator.
+- Denominator.
+- Previous month comparison.
+- Status.
+
+### PANEL 2 — TARGET ACHIEVEMENT & BINA AB
+
+Empat indikator:
+
+1. TARGET : PAB.
+2. TARGET : PAB-K.
+3. TARGET : PPB.
+4. JUMLAH AB : BINA.
+
+Tampilkan:
+- Percentage.
+- Target.
+- Realization.
+- Numerator.
+- Denominator.
+- Previous month comparison.
+
+Gunakan formula asli Excel.
+
+Tangani:
+- Zero denominator.
+- Missing values.
+- Values above 100%.
+- Incomplete reporting.
+
+============================================================
+09. PARTNER NAVIGATION
+============================================================
+
+Pilihan:
+
+- KESELURUHAN.
+- KA01.
+- KA02.
+- KA03.
+- KA04.
+- KA05.
+- KA06.
+- KA07.
+- KA08.
+- KA09.
+- KA10.
+- KA11.
+- KA12.
+- KA13.
+- KA14.
+
+Tepat 14 mitra.
+
+Jangan menambahkan KA15.
+
+KAC dapat tetap menjadi entitas agregat organisasi jika diperlukan oleh workbook.
+
+Ketika KESELURUHAN dipilih:
+- Tampilkan konsolidasi seluruh mitra.
+
+Ketika KA01–KA14 dipilih:
+- Empat KPI berubah.
+- Tiga grafik berubah.
+- Dua summary panels berubah.
+- Tabel perbandingan berubah.
+- Analisa berubah.
+- Rekomendasi berubah.
+
+Gunakan satu global selection state.
+
+Desain tombol:
+- White background.
+- Navy border.
+- Navy text.
+- Mustard fill untuk selected partner.
+
+Sediakan RESET TO ALL PARTNERS.
+
+============================================================
+10. MONTH-OVER-MONTH COMPARISON
+============================================================
+
+Buat tabel:
+
+MONTH-OVER-MONTH PERFORMANCE COMPARISON.
+
+Kolom:
+
+| No. | Indikator | Bulan Lalu | Bulan Ini | Selisih | Perubahan % | Status |
+
+Indikator:
+- RP.
+- RP-K.
+- PAB.
+- PAB-K.
+- BINA AB.
+- TIDAK TERBINA.
+- PPB.
+- KPI PAB.
+- KPI PAB-KHS.
+- KPI BINA.
+- KPI PPB.
+- RP:PKU.
+- RP:PAB.
+- PAB:PPB.
+- BINA AB:PKU.
+- TARGET:PAB.
+- TARGET:PAB-K.
+- TARGET:PPB.
+- JUMLAH AB:BINA.
+
+Gunakan hanya indikator yang terverifikasi.
+
+SELISIH:
+
+Nilai bulan ini - Nilai bulan lalu.
+
+PERUBAHAN:
+
+((Nilai bulan ini - Nilai bulan lalu) / Nilai bulan lalu) × 100%.
+
+Jika bulan lalu nol atau tidak tersedia:
+- Tampilkan N/A atau NEW.
+- Jangan menghasilkan #DIV/0!.
+
+Status:
+- IMPROVED.
+- DECLINED.
+- UNCHANGED.
+- NEW.
+- NO DATA.
+
+Peningkatan TIDAK TERBINA tidak otomatis berarti kinerja membaik.
+
+Jika bulan aktif Januari, bandingkan dengan Desember tahun sebelumnya apabila tersedia.
+
+Jika bulan aktif Februari, bandingkan dengan Januari.
+
+Desain:
+- White surface.
+- Navy header.
+- Mustard highlights.
+- Subtle row separators.
+- Sticky header.
+- Search.
+- Sort.
+- Pagination.
+- Export XLSX.
+- Export CSV.
+- Full screen.
+
+Tabel mengikuti filter mitra dan periode.
+
+============================================================
+11. SIX SIDEBAR DOMAINS
+============================================================
+
+Buat tepat enam domain sidebar.
+
+Sidebar:
+- Deep Navy background.
+- White typography.
+- Mustard active indicator.
+
+Menu aktif:
+- Mustard background.
+- Navy text.
+
+### DOMAIN 1 — DASHBOARD
+
+Executive dashboard lengkap.
+
+### DOMAIN 2 — UPDATE DATA
+
+Pusat input laporan.
+
+Fitur:
+- Copy-paste Excel.
+- Multi-cell paste.
+- CSV import.
+- XLSX import.
+- Manual editing.
+- Draft.
+- Validation.
+- Preview.
+- Submit.
+- Revision history.
+- Process Data.
+- Synchronization.
+- Export.
+
+Tombol:
+- IMPORT EXCEL.
+- IMPORT CSV.
+- PASTE FROM EXCEL.
+- SAVE DRAFT.
+- VALIDATE DATA.
+- PROCESS DATA.
+- SYNCHRONIZE.
+- EXPORT.
+- FULL SCREEN.
+
+#### UPDATE DATA — ORIGINAL TABLE STRUCTURE
+
+Audit dan pertahankan range A2:IJ24.
+
+Pertahankan header:
+
+IDENTITAS:
+- LB 09.
+- TP.
+
+RP:
+- UM.
+- KHS.
+- Σ.
+
+PAB:
+- L.
+- P.
+- KHS.
+- Σ.
+
+TTL AB:
+- L.
+- P.
+- KHS.
+- Σ.
+
+PEMBINAAN:
+- AB.
+- AB KHS.
+- %.
+
+STATUS AB:
+- A.
+- A-KHS.
+- Σ.
+- TA.
+- TA-KHS.
+- Σ.
+- MNGL.
+
+PPB:
+- L.
+- P.
+- KHS.
+- Σ.
+
+MEDIA:
+- M.
+- HI.
+
+Baris:
+- KAC.
+- KA01–KA14.
+- TTL.
+- BLL.
+- EVA.
+- %.
+- TRGT.
+
+Pertahankan struktur dan relasi aslinya.
+
+#### PREMIUM SPREADSHEET
+
+- White background.
+- Navy multi-level header.
+- Mustard highlights.
+- Sticky headers.
+- Frozen first column.
+- Horizontal scrolling.
+- Vertical scrolling.
+- Resizable columns.
+- Multi-cell selection.
+- Keyboard navigation.
+- Excel clipboard.
+- Undo/redo.
+- Cell validation.
+- Full screen.
+- Zoom.
+
+Bedakan:
+- Input cells.
+- Calculated cells.
+- Summary cells.
+
+Calculated cells read-only.
+
+Jangan mengubah struktur bisnis demi estetika.
+
+### DOMAIN 3 — DATA
+
+Buat 16 submenu:
+
+1. Proccesing.
+2. Data.
+3. Control.
+4. Target 2026.
+5. KPI 2026.
+6. OUTPUT_PKU (QLY).
+7. RP-U.
+8. PAB-U.
+9. RP-K.
+10. PAB-K.
+11. BINA AB-U.
+12. BINA AB-K.
+13. PPB-U.
+14. PPB-K.
+15. MEDIA.
+16. SCORING.
+
+Semua halaman mempunyai:
+- Search.
+- Filter.
+- Sort.
+- Pagination.
+- Export XLSX.
+- Export CSV.
+- Print.
+
+### DOMAIN 4 — ANALISA, EVALUASI & REKOMENDASI
+
+ANALISA:
+- Tren.
+- Pertumbuhan.
+- Penurunan.
+- Ranking.
+- Perbandingan.
+- Target.
+- Realisasi.
+- KPI.
+- Konsistensi pelaporan.
+
+EVALUASI:
+- Indikator unggul.
+- Indikator lemah.
+- Target tidak tercapai.
+- Mitra yang membutuhkan perhatian.
+- Perubahan signifikan.
+
+REKOMENDASI:
+- Evidence.
+- Finding.
+- Priority.
+- Suggested action.
+
+Bedakan:
+- Verified facts.
+- Interpretation.
+- Recommendations.
+
+### DOMAIN 5 — SETTINGS
+
+Buat 11 submenu:
+
+1. APPEARANCE.
+2. CONTENT EDITOR.
+3. MASTER DATA.
+4. USER & ACCESS.
+5. SYNC CONTROL.
+6. GOOGLE SHEETS.
+7. RULES.
+8. TEST.
+9. DATABASE.
+10. MONITORING.
+11. DEPLOY.
+
+### DOMAIN 6 — HAPUS DATA APLIKASI
+
+Sediakan:
+- Hapus data periode.
+- Hapus data mitra.
+- Hapus hasil kalkulasi.
+- Factory reset.
+
+Hanya Super Admin.
+
+Wajib:
+- Konfirmasi dua tahap.
+- Ketik HAPUS SEMUA DATA.
+- Backup.
+- Audit log.
+- Recovery capability.
+
+============================================================
+12. SETTINGS — APPEARANCE & CONTENT EDITOR
+============================================================
+
+APPEARANCE:
+
+Pengaturan:
+- Font family.
+- Font size.
+- Sidebar color.
+- Panel color.
+- Background.
+- Chart colors.
+- Border radius.
+- Shadow.
+- Layout.
+- Sidebar width.
+- Density.
+
+Default:
+WHITE + DEEP NAVY + MUSTARD.
+
+Optional:
+- Light Corporate.
+- Dark Executive.
+
+Perubahan tema harus diterapkan konsisten ke seluruh aplikasi.
+
+CONTENT EDITOR:
+
+Admin dapat mengubah tanpa coding:
+- Nama aplikasi.
+- Subtitle.
+- Nama menu.
+- Judul grafik.
+- Label KPI.
+- Deskripsi indikator.
+- Informasi bantuan.
+- Redaksi halaman.
+
+Perubahan redaksi tidak boleh mengubah formula atau database.
+
+============================================================
+13. SETTINGS — MASTER DATA & USER ACCESS
+============================================================
+
+MASTER DATA:
+
+Kelola:
+- KA01–KA14.
+- Kode mitra.
+- Nama mitra.
+- Status aktif.
+- Tahun.
+- Periode.
+- Target.
+- Bobot scoring.
+- Ambang KPI.
+
+USER & ACCESS:
+
+Role:
+1. Super Admin.
+2. Admin Pusat.
+3. Operator.
+4. Viewer.
+
+Persyaratan:
+- Login wajib.
+- Tidak ada registrasi publik.
+- Secure password hashing.
+- Session management.
+- RBAC.
+- Device registration.
+- Server-side authorization.
+- Audit logs.
+- HTTPS.
+
+============================================================
+14. REPORTING PERIOD MANAGEMENT
+============================================================
+
+Buat sistem penguncian periode laporan.
+
+Status:
+
+OPEN
+→ SUBMITTED
+→ VERIFIED
+→ LOCKED.
+
+Tambahkan:
+- Reopen period.
+- Approval.
+- Revision history.
+- Change reason.
+- Period comparison.
+- Historical preservation.
+
+Periode LOCKED hanya dapat dibuka kembali dengan otorisasi khusus.
+
+Setiap perubahan terhadap laporan historis harus:
+- Dicatat.
+- Memiliki alasan.
+- Memiliki identitas pengubah.
+- Memiliki timestamp.
+- Memiliki versi sebelumnya.
+- Memiliki versi baru.
+
+Jangan mengubah laporan historis secara diam-diam.
+
+============================================================
+15. DATA LINEAGE & PROVENANCE
+============================================================
+
+Setiap angka harus dapat ditelusuri ke sumbernya.
+
+Catat:
+
+- Source file.
+- Import batch ID.
+- Original worksheet.
+- Original row.
+- Original column.
+- Partner.
+- Reporting period.
+- Imported by.
+- Imported timestamp.
+- Calculation version.
+- Revision history.
+
+Sediakan fitur TRACE DATA.
+
+Contoh:
+
+Dashboard KPI PAB
+→ Indicator Result
+→ Processed Data
+→ Imported Report
+→ Original Worksheet
+→ Original Cell.
+
+Pengguna berwenang harus dapat melihat sumber angka dan riwayat perubahannya.
+
+============================================================
+16. INTELLIGENT IMPORT TEMPLATE ENGINE
+============================================================
+
+Buat sistem pengenalan laporan otomatis.
+
+Format:
+- XLSX.
+- CSV.
+- Excel clipboard paste.
+
+Fitur:
+- Template recognition.
+- Header mapping.
+- Multi-level header detection.
+- Partner identification.
+- Reporting period identification.
+- Column mapping.
+- Template version recognition.
+- Import preview.
+- Validation.
+- Duplicate detection.
+- Partial import.
+- Import rollback.
+
+Alur:
+
+UPLOAD / PASTE
+→ FILE READER
+→ HEADER MAPPING
+→ TEMPLATE RECOGNITION
+→ DATA PREVIEW
+→ VALIDATION
+→ DUPLICATE CHECK
+→ SAVE DRAFT
+→ PROCESS DATA
+→ CALCULATION
+→ DASHBOARD REFRESH.
+
+Tampilkan kesalahan per baris dan kolom.
+
+Jangan menimpa data periode sebelumnya secara diam-diam.
+
+Setiap import memiliki:
+- Import ID.
+- Original filename.
+- Reporting period.
+- Partner.
+- Imported by.
+- Timestamp.
+- Validation status.
+- Processing status.
+- Revision number.
+
+============================================================
+17. SETTINGS — SYNC CONTROL
+============================================================
+
+Buat synchronization engine terpisah.
+
+Status:
+- SYNCED.
+- PENDING.
+- SYNCING.
+- CONFLICT.
+- OFFLINE.
+- ERROR.
+
+Gunakan:
+- Idempotency keys.
+- Revision IDs.
+- Version numbers.
+- Transactional writes.
+- Retry policy.
+- Conflict records.
+
+### FIELD-LEVEL CONFLICT RESOLUTION
+
+Gunakan:
+- Field-level conflict detection.
+- Row-level revision.
+- Optimistic concurrency.
+- Manual resolution.
+- Immutable revision history.
+
+Jika dua operator mengubah kolom yang berbeda:
+- Pertahankan kedua perubahan.
+- Jangan menimpa seluruh laporan.
+
+Jika dua operator mengubah field yang sama:
+- Tampilkan versi A.
+- Tampilkan versi B.
+- Tampilkan perbedaan.
+- Tampilkan pengubah.
+- Tampilkan waktu.
+- Minta resolusi sesuai otorisasi.
+
+Jangan menggunakan Last Write Wins untuk keseluruhan laporan.
+
+Default:
+MANUAL CONTROLLED SYNC.
+
+============================================================
+18. SETTINGS — GOOGLE SHEETS
+============================================================
+
+Google Sheets merupakan konektor opsional.
+
+Sediakan:
+- OAuth.
+- Connect.
+- Disconnect.
+- Spreadsheet selection.
+- Worksheet selection.
+- Column mapping.
+- Import.
+- Export.
+- Manual sync.
+- Preview.
+- Duplicate detection.
+- Conflict detection.
+- Sync history.
+
+Google Sheets bukan database utama.
+
+Aplikasi tetap berfungsi offline ketika Google Sheets tidak tersedia.
+
+Jangan menyimpan credential sensitif di frontend.
+
+============================================================
+19. OFFLINE SECURITY HARDENING
+============================================================
+
+Implementasikan:
+
+- Device registration.
+- Device approval.
+- Local database encryption.
+- Secure key management.
+- Session management.
+- Device revocation.
+- Local data protection.
+- Server-side authorization.
+- Encrypted backup.
+- Secure logout.
+
+Jangan mengandalkan proteksi frontend saja.
+
+Dokumentasikan keterbatasan pencabutan akses pada perangkat yang sedang offline.
+
+Ketika perangkat kembali online:
+- Periksa status perangkat.
+- Periksa otorisasi.
+- Periksa session.
+- Jalankan sinkronisasi hanya jika diizinkan.
+
+Jangan menghapus data lokal secara otomatis ketika logout.
+
+Buat kebijakan terpisah untuk penghapusan data lokal oleh Super Admin.
+
+============================================================
+20. SETTINGS — RULES
+============================================================
+
+Buat APPLICATION CONSTITUTION.
+
+Dokumen permanen:
+
+- APPLICATION_RULES.md.
+- BUSINESS_LOGIC.md.
+- DATA_SCHEMA_RULES.md.
+- FORMULA_RULES.md.
+- UI_UX_RULES.md.
+- SECURITY_RULES.md.
+- SYNC_RULES.md.
+- DEPLOYMENT_RULES.md.
+
+Fitur:
+- Create.
+- Edit.
+- Approve.
+- Version history.
+- Compare changes.
+- Restore.
+- Lock critical rules.
+- Export.
+- Import.
+
+Aturan penting harus diterjemahkan menjadi:
+- Configuration.
+- Validation.
+- Schema constraints.
+- Unit tests.
+- Integration tests.
+- Acceptance criteria.
+
+Sediakan DEVELOPMENT_CONTEXT.md.
+
+Dokumen harus memuat:
+- Architecture.
+- Modules.
+- Database schema.
+- Formula dictionary.
+- Dependency map.
+- Known issues.
+- Rules.
+- Test status.
+- Deployment status.
+- Pending tasks.
+
+AI developer sesi berikutnya wajib membaca dokumentasi aktual sebelum mengubah proyek.
+
+Jangan mengandalkan memory percakapan AI.
+
+============================================================
+21. SETTINGS — TEST
+============================================================
+
+Buat AUTOMATED QUALITY ASSURANCE CENTER.
+
+Gunakan:
+- Vitest.
+- React Testing Library.
+- Playwright.
+- API integration tests.
+- Database tests.
+- Regression tests.
+- End-to-end tests.
+
+Setiap perubahan kode memicu pengujian yang relevan.
+
+Uji:
+- Formula.
+- Excel parity.
+- Dashboard.
+- KPI.
+- Annual charts.
+- Percentage summaries.
+- Month comparison.
+- Partner navigation.
+- Import/export.
+- Database.
+- Synchronization.
+- Offline.
+- Security.
+- Backup.
+- Restore.
+- Deployment.
+
+Tampilkan:
+- Total tests.
+- Passed.
+- Failed.
+- Skipped.
+- Coverage.
+- Last run.
+- Duration.
+- Error details.
+
+Perubahan kritis tidak boleh masuk production jika test wajib gagal.
+
+Jangan mengklaim PASS tanpa bukti pengujian.
+
+============================================================
+22. SETTINGS — DATABASE
+============================================================
+
+Buat DATABASE HEALTH & DATA DURABILITY CENTER.
+
+Gunakan:
+- IndexedDB.
+- PostgreSQL.
+- Transactional writes.
+- Database constraints.
+- Versioned migrations.
+- Backup.
+- Restore.
+- Recovery.
+
+Tampilkan:
+- Local database status.
+- Central database status.
+- Database size.
+- Record count.
+- Last successful write.
+- Last backup.
+- Last restore test.
+- Pending sync.
+- Database version.
+- Storage health.
+
+### BACKUP POLICY
+
+Sediakan:
+- Daily backup.
+- Weekly backup.
+- Monthly backup.
+- Before migration.
+- Before major update.
+- Before deletion.
+
+Backup memiliki:
+- Backup ID.
+- Timestamp.
+- Database version.
+- Checksum.
+- File size.
+- Verification status.
+
+Lakukan restore test di lingkungan terpisah.
+
+Pisahkan application cache dari persistent business data.
+
+Jangan menghapus data ketika logout.
+
+Berikan peringatan ketika storage quota mendekati batas.
+
+### DISASTER RECOVERY
+
+Tetapkan:
+
+RPO:
+Target awal maksimal 24 jam.
+
+RTO:
+Target awal maksimal 4 jam untuk layanan utama.
+
+Sesuaikan berdasarkan kemampuan infrastruktur dan mekanisme backup yang benar-benar diterapkan.
+
+Sediakan:
+- Recovery documentation.
+- Backup encryption.
+- Restore verification.
+- Recovery history.
+- Disaster recovery test.
+
+Jangan menjanjikan pemulihan yang belum dibuktikan.
+
+============================================================
+23. SETTINGS — MONITORING
+============================================================
+
+Buat APPLICATION MONITORING & ERROR CENTER.
+
+Catat:
+- JavaScript errors.
+- API errors.
+- Database errors.
+- Formula errors.
+- Import errors.
+- Sync errors.
+- Authentication errors.
+- Backup failures.
+- Restore failures.
+- Deployment failures.
+- Performance issues.
+
+Setiap error memiliki:
+- Error ID.
+- Timestamp.
+- Category.
+- Severity.
+- Module.
+- Device ID.
+- User ID jika tersedia.
+- Error message.
+- Stack trace jika aman.
+- Resolution status.
+
+Severity:
+- CRITICAL.
+- HIGH.
+- MEDIUM.
+- LOW.
+- INFO.
+
+Tampilkan:
+- Total errors.
+- Unresolved errors.
+- Critical errors.
+- Sync failures.
+- Database health.
+- Backup status.
+- Test failures.
+- Server health.
+
+Sediakan:
+- Search.
+- Filter.
+- Error detail.
+- Resolution notes.
+- Export logs.
+
+Jangan mencatat password, token, atau API key.
+
+Monitoring lokal tetap berjalan offline.
+
+============================================================
+24. SETTINGS — DEPLOY
+============================================================
+
+Buat APPLICATION DEPLOYMENT CENTER.
+
+Tujuan:
+Aplikasi dapat diakses melalui SATU LINK ONLINE.
+
+Gunakan:
+- GitHub repository.
+- GitHub Actions.
+- Frontend hosting.
+- Backend hosting.
+- PostgreSQL.
+- HTTPS.
+- PWA.
+
+Satu URL utama membuka halaman login.
+
+Hanya akun yang memiliki akses yang dapat masuk.
+
+Sediakan:
+- Production build.
+- Environment configuration.
+- Database migrations.
+- Health check.
+- Release version.
+- Deployment log.
+- Rollback.
+
+Tampilkan:
+- Current version.
+- Latest release.
+- Build status.
+- Test status.
+- Deployment status.
+- Backend health.
+- Database connection.
+- Last deployment.
+- Rollback availability.
+
+Jangan menyimpan secrets di frontend atau repository.
+
+Jangan menyatakan deployment berhasil sebelum URL benar-benar diuji.
+
+============================================================
+25. DATABASE STRUCTURE
+============================================================
+
+Minimal tabel:
+
+1. users
+2. roles
+3. permissions
+4. partners
+5. reporting_periods
+6. raw_reports
+7. raw_report_rows
+8. import_batches
+9. import_batch_rows
+10. master_targets
+11. processed_data
+12. indicator_results
+13. kpi_results
+14. scoring_results
+15. dashboard_aggregates
+16. calculation_versions
+17. sync_queue
+18. sync_logs
+19. conflict_records
+20. audit_logs
+21. application_settings
+22. backup_records
+23. application_rules
+24. rule_versions
+25. test_runs
+26. test_results
+27. application_errors
+28. deployment_releases
+29. device_registry
+30. data_revisions
+31. approval_records
+32. data_lineage
+
+Gunakan:
+- Primary keys.
+- Foreign keys.
+- Unique constraints.
+- Database transactions.
+- Indexes.
+- Version control.
+
+Jangan menggunakan nomor baris Excel sebagai primary key.
+
+Pertahankan histori bulanan dan tahunan.
+
+============================================================
+26. CALCULATION ENGINE
+============================================================
+
+Replikasi seluruh formula Excel menggunakan TypeScript.
+
+Contoh formula yang telah teridentifikasi:
+
+- BINA AB = BINA AB-U + BINA AB-K.
+- Tidak Terbina = AB Aktif - BINA AB.
+- Rasio AB:BINA.
+- Rasio RP:PKU.
+- Rasio RP:PAB.
+- Rasio PAB:PPB.
+
+Contoh tersebut bukan keseluruhan formula.
+
+Audit seluruh formula asli.
+
+Gunakan:
+- Explicit calculation functions.
+- Dependency graph.
+- Calculation version.
+- Precision handling.
+- Zero division protection.
+- Missing data handling.
+- Deterministic calculations.
+
+Jangan menggunakan eval().
+
+Jangan menganggap nilai kosong selalu nol.
+
+Semua KPI, grafik, persentase, dan tabel perbandingan wajib menggunakan Calculation Engine yang sama.
+
+Jangan membuat formula terpisah pada masing-masing komponen dashboard.
+
+============================================================
+27. AI GOVERNANCE — ANALYSIS & RECOMMENDATIONS
+============================================================
+
+AI hanya boleh membaca data aktual dan terverifikasi.
+
+AI tidak boleh:
+- Mengarang angka.
+- Mengubah formula.
+- Mengarang penyebab penurunan.
+- Menganggap dugaan sebagai fakta.
+- Mengubah database tanpa otorisasi.
+- Memberikan rekomendasi tanpa bukti.
+
+Setiap rekomendasi wajib menyertakan:
+
+1. Partner.
+2. Reporting period.
+3. Indicator.
+4. Actual value.
+5. Target.
+6. Evidence.
+7. Finding.
+8. Interpretation.
+9. Suggested action.
+10. Evidence sufficiency.
+
+Bedakan:
+
+VERIFIED FACT
+INTERPRETATION
+HYPOTHESIS
+RECOMMENDATION.
+
+Jika bukti tidak cukup, AI harus menyatakan:
+
+INSUFFICIENT DATA FOR CONCLUSION.
+
+AI hanya boleh menggunakan indikator yang memiliki sumber terverifikasi.
+
+Semua rekomendasi harus dapat ditelusuri kembali ke data.
+
+============================================================
+28. PERFORMANCE & CAPACITY TESTING
+============================================================
+
+Uji aplikasi dengan:
+- Data historis multi-tahun.
+- 14 mitra.
+- Multiple reporting periods.
+- Large XLSX imports.
+- Concurrent users.
+- Offline synchronization.
+- Dashboard filtering.
+- Calculation workload.
+
+Target awal:
+
+| Parameter | Target |
+|---|---|
+| Local dashboard load | ≤ 2 seconds |
+| Filter response | ≤ 500 ms |
+| Recalculation | ≤ 2 seconds |
+| Normal report import | ≤ 5 seconds |
+| Navigation response | ≤ 300 ms |
+
+Target harus diverifikasi pada perangkat dan volume data aktual.
+
+Catat hasil benchmark pada TEST dan MONITORING.
+
+============================================================
+29. USER ACCEPTANCE TESTING
+============================================================
+
+Buat UAT berdasarkan workflow nyata.
+
+SKENARIO:
+
+1. Import laporan 14 mitra.
+2. Validate data.
+3. Review errors.
+4. Process data.
+5. Verify calculations.
+6. Update dashboard.
+7. Compare reporting periods.
+8. Lock reporting period.
+9. Work offline.
+10. Synchronize multiple devices.
+11. Resolve conflicts.
+12. Create backup.
+13. Restore backup.
+14. Export reports.
+
+Sediakan:
+- UAT checklist.
+- Test evidence.
+- Operator manual.
+- Administrator manual.
+- Technical documentation.
+- Recovery manual.
+- Deployment manual.
+
+Aplikasi hanya dinyatakan ACCEPTED setelah seluruh skenario kritis berhasil.
+
+============================================================
+30. ZERO DATA LOSS & CHANGE CONTROL
+============================================================
+
+SEBELUM PERUBAHAN:
+
+1. Read RULES.
+2. Audit module.
+3. Check dependencies.
+4. Create checkpoint.
+5. Run baseline tests.
+
+SETELAH PERUBAHAN:
+
+1. Run relevant tests.
+2. Run regression tests.
+3. Verify formula parity.
+4. Verify database integrity.
+5. Verify offline operation.
+6. Verify synchronization.
+7. Record changes.
+
+Gunakan:
+- Transactional writes.
+- Versioned migrations.
+- Rollback.
+- Idempotent synchronization.
+- Conflict preservation.
+- Backup verification.
+- Recovery procedures.
+
+Jangan melakukan destructive migration tanpa backup.
+
+Jangan menghapus histori tanpa persetujuan.
+
+============================================================
+31. IMPLEMENTATION ROADMAP
+============================================================
+
+Kerjakan secara berurutan:
+
+PHASE 1 — FORENSIC EXCEL AUDIT.
+
+PHASE 2 — FORMULA DICTIONARY & DEPENDENCY MAP.
+
+PHASE 3 — EXCEL FORMULA PARITY ENGINE.
+
+PHASE 4 — DATABASE DESIGN & MIGRATION.
+
+PHASE 5 — DATA LINEAGE & PERIOD MANAGEMENT.
+
+PHASE 6 — CALCULATION ENGINE.
+
+PHASE 7 — UPDATE DATA & IMPORT ENGINE.
+
+PHASE 8 — EXECUTIVE DASHBOARD.
+
+PHASE 9 — DATA PAGES.
+
+PHASE 10 — ANALYSIS, EVALUATION & RECOMMENDATIONS.
+
+PHASE 11 — SETTINGS CENTER.
+
+PHASE 12 — OFFLINE SECURITY & MULTI-DEVICE SYNC.
+
+PHASE 13 — GOOGLE SHEETS CONNECTOR.
+
+PHASE 14 — AUTOMATED TESTING & UAT.
+
+PHASE 15 — MONITORING, BACKUP & RECOVERY.
+
+PHASE 16 — PRODUCTION DEPLOYMENT.
+
+Jangan melompati fondasi data dan formula hanya untuk mempercepat desain.
+
+Jika satu sesi tidak cukup:
+- Simpan progres di DEVELOPMENT_CONTEXT.md.
+- Catat file yang telah dibuat.
+- Catat fitur yang telah selesai.
+- Catat test yang telah dijalankan.
+- Catat error yang belum selesai.
+- Catat pekerjaan berikutnya.
+
+Jangan mengulang pekerjaan yang sudah selesai.
+
+============================================================
+32. DEFINITION OF DONE
+============================================================
+
+Aplikasi dinyatakan selesai apabila:
+
+EXCEL:
+- Seluruh 18 sheet diaudit.
+- Formula dictionary tersedia.
+- Dependency map tersedia.
+- Seluruh 15 objek grafik dipetakan.
+- Formula parity diuji.
+
+DASHBOARD:
+- Empat KPI panels berfungsi.
+- Tiga annual graph panels berfungsi.
+- Dua percentage summary panels berfungsi.
+- Navigasi KESELURUHAN dan KA01–KA14 berfungsi.
+- Month-over-month comparison berfungsi.
+- Global filter berfungsi.
+
+DATA:
+- UPDATE DATA berfungsi.
+- CSV import berfungsi.
+- XLSX import berfungsi.
+- Excel clipboard paste berfungsi.
+- Semua 16 halaman DATA tersedia.
+- Data lineage berfungsi.
+- Reporting period management berfungsi.
+
+ANALYSIS:
+- Analisa berfungsi.
+- Evaluasi berfungsi.
+- Rekomendasi berbasis bukti berfungsi.
+
+INFRASTRUCTURE:
+- Offline operation berfungsi.
+- Multi-device synchronization berfungsi.
+- Conflict resolution berfungsi.
+- Google Sheets connector tersedia.
+- Authentication berfungsi.
+- Backup dan restore terverifikasi.
+- Monitoring berfungsi.
+- Deployment berfungsi.
+- Production URL aktif.
+
+QUALITY:
+- Automated tests lulus.
+- UAT lulus.
+- Tidak ada formula kritis yang belum diuji.
+- Tidak ada error kritis yang belum diselesaikan.
+- Tidak ada data dummy.
+- Tidak ada kehilangan data yang tidak terdeteksi.
+- Build berhasil.
+- Dokumentasi lengkap.
+
+Berikan laporan akhir:
+
+- PASS.
+- FAIL.
+- NEEDS VERIFICATION.
+- NOT IMPLEMENTED.
+
+Sertakan bukti pengujian.
+
+Jangan menyatakan fitur berhasil jika belum diuji.
+
+============================================================
+33. FINAL EXECUTION DIRECTIVE
+============================================================
+
+BUILD THE COMPLETE APPLICATION.
+
+Jangan hanya memberikan:
+- Desain.
+- Mockup.
+- Pseudocode.
+- Potongan kode.
+- Rencana implementasi.
+
+Lakukan implementasi langsung pada proyek existing.
+
+Prioritas:
+
+1. DATA INTEGRITY.
+2. FORMULA ACCURACY.
+3. DATABASE DURABILITY.
+4. DATA TRACEABILITY.
+5. OFFLINE RELIABILITY.
+6. MULTI-DEVICE SYNCHRONIZATION.
+7. SECURITY.
+8. AUTOMATED TESTING.
+9. PROFESSIONAL UI/UX.
+10. MONITORING.
+11. DISASTER RECOVERY.
+12. PRODUCTION DEPLOYMENT.
+
+Jika membutuhkan kredensial, token, domain, atau persetujuan pemilik akun, siapkan konfigurasi dan jelaskan langkah aktivasi.
+
+Jangan mengarang keberhasilan deployment.
+
+HASIL AKHIR:
+
+APP DASHBOARD LKB
+CENTRAL MANAGEMENT SYSTEM.
+
+Satu aplikasi pusat dengan:
+
+- Satu pintu input data.
+- Satu Calculation Engine.
+- Satu Excel Formula Parity Engine.
+- Satu central database.
+- Local database setiap perangkat.
+- Satu executive dashboard.
+- Satu sistem analisis.
+- Satu sistem evaluasi.
+- Satu sistem rekomendasi.
+- Satu sistem kontrol.
+- Satu sistem data lineage.
+- Satu sistem period locking.
+- Satu sistem backup.
+- Satu sistem recovery.
+- Satu sistem monitoring.
+- Satu sistem sinkronisasi.
+- Satu link akses online.
+- Kemampuan operasional offline.
+
+DESIGN FINAL:
+
+WHITE + DEEP NAVY BLUE + MUSTARD YELLOW.
+
+Gunakan screenshot dashboard terakhir sebagai acuan visual utama.
+
+Jangan mengubah komposisi dashboard yang telah ditetapkan.
+
+RULES menjaga konsistensi.
+TEST menjaga kualitas.
+DATABASE menjaga ketahanan data.
+MONITORING menjaga visibilitas kesalahan.
+DEPLOY menjaga ketersediaan aplikasi.
+DATA LINEAGE menjaga keterlacakan.
+FORMULA PARITY menjaga akurasi.
+PERIOD LOCKING menjaga integritas histori.
+DISASTER RECOVERY menjaga kesinambungan operasional.
+
+NO UNVERIFIED FORMULA.
+NO SILENT DATA MODIFICATION.
+NO UNTRACEABLE INDICATOR.
+NO UNCONTROLLED SYNCHRONIZATION.
+NO UNTESTED RECOVERY.
+NO UNSUPPORTED AI CONCLUSION.
+
+BUILD IT.
+TEST IT.
+PROTECT IT.
+MONITOR IT.
+RECOVER IT.
+DEPLOY IT.
+
+FINAL VERDICT:
+
+APP DASHBOARD LKB — PREMIUM CORPORATE HYBRID OFFLINE-FIRST CENTRAL MANAGEMENT SYSTEM.
